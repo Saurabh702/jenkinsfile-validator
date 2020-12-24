@@ -4,7 +4,7 @@
     <vendor url="https://github.com/saurabh702">saurabh702</vendor>
 
     <description>
-        <![CDATA[ Validate your Jenkinsfile directly from your IDE. Enter the jenkins username, API token and server url and you are good to go.]]>
+        <![CDATA[ Validate your Jenkinsfile directly from your IDE<br><br>Under Tools Menu select "Jenkinsfile Validation". <br>Select "Validate" and enter the Jenkins Username, API token and Server URL and you are good to go. <br><br> Source code for this plugin is available here : https://github.com/saurabh702/jenkinsfile-validator <br><br> Reference :  https://www.jenkins.io/doc/book/pipeline/development/]]>
     </description>
 
     <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
