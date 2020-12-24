@@ -1,0 +1,23 @@
+<idea-plugin>
+    <id>com.github.saurabh702.jenkinsfile.validator</id>
+    <name>Jenkinsfile Validator</name>
+    <vendor url="https://github.com/saurabh702">saurabh702</vendor>
+
+    <description>
+        <![CDATA[ Validate your Jenkinsfile directly from your IDE. Enter the jenkins username, API token and server url and you are good to go.]]>
+    </description>
+
+    <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij"/>
+
+    <actions>
+        <group id="ValidationGroup" text="Jenkinsfile Validation" popup="true">
+            <action id="ValidateDialogAction" class="ValidateDialogAction" text="Validate" description="If selected file in editor is a Jenkinsfile, validate it"/>
+            <action id="SettingsAction" class="SettingsAction" text="Settings" description="Settings for Jenkinsfile validator"/>
+            <add-to-group group-id="ToolsMenu" anchor="first"/>
+        </group>
+    </actions>
+</idea-plugin>
